@@ -1,0 +1,15 @@
+## COMANDOS ##
+
+git config --global
+    user.name: configura o usuário local
+    user.email: configura o email do usuário
+
+git config --list: lista as configurações salvas
+
+git init: inicializa um repositório no diretório atual
+
+git add: adiciona arquivo ao repositório; opções:
+    [nome-do-arquivo]: arquivos de forma individual
+    --all: todos os arquivos
+    -A: todos os arquivos
+    .: todos os arquivos
