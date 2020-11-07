@@ -12,3 +12,5 @@
         
     - Commited
         - Alterações salvas
+
+- Head: indica a última modificação em uma branch

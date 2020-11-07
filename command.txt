@@ -17,3 +17,17 @@ git add: adiciona arquivo ao repositório; opções:
 git diff: exibe as alterações feitas que ainda não foram adicionadas (staged)
     --cached: exibe as alterações quando já adicionadas (staged)
     --staged: idem ao anterior
+
+git log: lista o histórico das alterações (mais recentes), bem como informações acerca das alterações
+    --oneline: exibe as alterações de forma compacta, em uma única linha
+    -[n]: limita a quantidade de logs exibidos (de acordo com o que foi informado no parâmetro [n])
+    -p: exibe também as alterações internas dos arquivos modificados ("diff")
+    --stat: mostra a quantidade de alterações em cada arquivo, sem exibir as mudanças em si
+    --shortstat: variante resumida da opção --stat
+    --name-only: exibe apenas o status dos arquivos em determinado log, por letras:
+        - M: modificado
+        - A: arquivo novo / adicionado
+        - D: removido
+    --abbrev-commit: limita os caracteres exibidos no log, forma reduzida
+    --relative-date: mostra a data da alteração em relação à data atual
+
