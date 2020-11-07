@@ -13,3 +13,7 @@ git add: adiciona arquivo ao repositório; opções:
     --all: todos os arquivos
     -A: todos os arquivos
     .: todos os arquivos
+
+git diff: exibe as alterações feitas que ainda não foram adicionadas (staged)
+    --cached: exibe as alterações quando já adicionadas (staged)
+    --staged: idem ao anterior
