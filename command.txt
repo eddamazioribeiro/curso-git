@@ -31,3 +31,6 @@ git log: lista o histórico das alterações (mais recentes), bem como informaç
     --abbrev-commit: limita os caracteres exibidos no log, forma reduzida
     --relative-date: mostra a data da alteração em relação à data atual
 
+git checkout
+    [revision-number]: retorna o repositório local para o estado em que estava no commit indicado no parâmetro; utilizado para consulta
+
