@@ -1,0 +1,14 @@
+## CONCEITOS GERAIS ##
+
+- Tipos de estados (status):
+    - Working directory:
+        - Modificados (modified - M)
+        - Excluídos (deleted - D)
+        - Adicionados (added - A)
+        - Não mapeado (untracked - U)
+
+    - Staging area:
+        - staged (adicionado), prontos para serem versionados (commitados)
+        
+    - Commited
+        - Alterações salvas
