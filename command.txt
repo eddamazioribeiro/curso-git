@@ -33,4 +33,11 @@ git log: lista o histórico das alterações (mais recentes), bem como informaç
 
 git checkout: "aponta" a branch local para detarminada branch / revisão
     [revision-number]: retorna o repositório local para o estado em que estava no commit indicado no parâmetro; utilizado para consulta
+    [nome-do-arquivo]: desfaz todas as alterações feitas no arquivo especificado (reverte)
+    
+git reset --hard: descarta todas as alterações feitas localmente (desde o último commit), para arquivos em estado de staged
+    reset: indica as alterações que serão desfeitas
+    --hard: efetua a reversão
 
+git clean: desfaz alterações não rastreads (unstaged, novos arquivos)
+    -f: reverte arquivos não rastreados (untracked)
