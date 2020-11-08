@@ -16,3 +16,5 @@
 - Head: indica a última modificação em uma branch
 
 - .gitignore: arquivo onde são configurados arquivos a serem ignorados pelo versionamento, de acordo com as regras ("locators") listados
+
+- Fork: cópia feita de determinado projeto, com intuito principal de colaboração para com o mesmo.
