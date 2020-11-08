@@ -43,3 +43,5 @@ git clean: desfaz alterações não rastreads (unstaged, novos arquivos)
     -f: reverte arquivos não rastreados (untracked)
 
 git clone: clona um repositório (local ou remoto)
+
+git pull: baixa a versão mais atual no servidor remoto
