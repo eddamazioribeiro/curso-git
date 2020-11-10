@@ -34,6 +34,8 @@ git log: lista o histórico das alterações (mais recentes), bem como informaç
 git checkout: "aponta" a branch local para detarminada branch / revisão
     [revision-number]: retorna o repositório local para o estado em que estava no commit indicado no parâmetro; utilizado para consulta
     [nome-do-arquivo]: desfaz todas as alterações feitas no arquivo especificado (reverte)
+    [nome-da-branch]: alterna para a branch indicada
+    -b [nome-da-branch]: cria nova branch, de acordo com o nome indicado, e na sequência faz checkout para a mesma
     
 git reset --hard: descarta todas as alterações feitas localmente (desde o último commit), para arquivos em estado de staged
     reset: indica as alterações que serão desfeitas
@@ -46,3 +48,6 @@ git clone: clona um repositório (local ou remoto)
     remote add origin [uri-do-projeto-no-github]: clona o projeto de origem remota, conforme indicado na URL
 
 git pull: baixa a versão mais atual no servidor remoto
+
+git branch: lista as branches disponíveis, indicando (com '*') a branch atual.
+    [nome-da-branch]: cria nova branch com o nome indicado
