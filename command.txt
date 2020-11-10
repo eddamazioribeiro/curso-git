@@ -51,7 +51,10 @@ git pull: baixa a versão mais atual no servidor remoto
 
 git branch: lista as branches disponíveis, indicando (com '*') a branch atual.
     [nome-da-branch]: cria nova branch com o nome indicado
+    -d [nome-da-branch]: remove a branch local indicada. Obs.: para remover determinada branch, não se pode estar "checkada" na mesma
+    -D [nome-da-branch]: idem ao anterior, opção que força a exclusão mesmo que ocorram validações impedindo
 
 git push: envia as alterações (commitadas) para o repositório remoto.
     --set-upstream origin [nome-da-branch-remota]: cria nova branch no servidor remoto, com o nome indicado, com base na nova brach criada localmente, "sincronizando" as duas
     -u origin [nome-da-branch]: idem ao item anterior
+    --delete [nome-da-branch]: exclui a branch indicada no servidor remoto
