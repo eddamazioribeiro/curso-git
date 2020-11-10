@@ -18,3 +18,7 @@
 - .gitignore: arquivo onde são configurados arquivos a serem ignorados pelo versionamento, de acordo com as regras ("locators") listados
 
 - Fork: cópia feita de determinado projeto, com intuito principal de colaboração para com o mesmo.
+
+- Branch: ramificação, com base na versão principal, de modo a isolar o desenvolvimento de determinada funcionalidade específica, não impactando a versão principal durante o processo.
+
+ 
