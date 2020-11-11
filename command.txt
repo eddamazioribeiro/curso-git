@@ -74,3 +74,4 @@ git stash: salva temporariamente as alterações feitas no repositório local
     save "[mensagem-descritiva]: adiciona comentário ao registro salvo (de forma semelhante à opção -m do comando commit)
     apply [id-stash (opcional)]: reverte para a alteração indicada salva no stash. Obs: se não indicada versão do stash, aplica a mais recente disponível
     pop [id-stash (opcional)]: idem ao anterior, porém já exclui o stash aplicado
+    clear: remove todos os stashes salvos
