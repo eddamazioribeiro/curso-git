@@ -55,6 +55,9 @@ git branch: lista as branches disponíveis, indicando (com '*') a branch atual.
     -D [nome-da-branch]: idem ao anterior, opção que força a exclusão mesmo que ocorram validações impedindo
     -m [nome-atual] [novo-nome]: renomeia a branch indicada. Obs.: caso não esteja checkado na branch desejada, indicar qual branch será renomeada
 
+git commit: rastrea as alterações adicionadas (git add), deixando-as aptas a serem enviadas ao repositório
+    -m "[mensagem-descritiva]": adiciona mensagem de comentário breve sobre a alteração feita e que está sendo commitada 
+
 git push: envia as alterações (commitadas) para o repositório remoto.
     --set-upstream origin [nome-da-branch-remota]: cria nova branch no servidor remoto, com o nome indicado, com base na nova brach criada localmente, "sincronizando" as duas
     -u origin [nome-da-branch]: idem ao item anterior
