@@ -72,3 +72,6 @@ git tag: lista as tags criadas durante o processo de desenvolvimento
 git stash: salva temporariamente as alterações feitas no repositório local
     -list: lista as alteações salvas até o momento
     save "[mensagem-descritiva]: adiciona comentário ao registro salvo, de forma semelhante à opção -m do comando commit
+    apply: aplica a alteração mais recente salva no stash
+    pop: aplica e excluit a alteração mais recente salva no stash
+    
