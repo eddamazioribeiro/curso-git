@@ -21,4 +21,4 @@
 
 - Branch: ramificação, com base na versão principal, de modo a isolar o desenvolvimento de determinada funcionalidade específica, não impactando a versão principal durante o processo.
 
- 
+ - Tag: marca uma alteração (pode ser um commit específico) chave para a evolução do projeto, indicando um marco, facilitando encontrar as mudanças significativas durante o desenvolvimento.

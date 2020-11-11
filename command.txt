@@ -62,3 +62,7 @@ git push: envia as alterações (commitadas) para o repositório remoto.
     --set-upstream origin [nome-da-branch-remota]: cria nova branch no servidor remoto, com o nome indicado, com base na nova brach criada localmente, "sincronizando" as duas
     -u origin [nome-da-branch]: idem ao item anterior
     --delete [nome-da-branch]: exclui a branch indicada no servidor remoto
+
+git tag: lista as tags criadas durante o processo de desenvolvimento
+    -a [numero-da-versao]: cria uma tag
+    -m "[mensagem-descritiva]": adiciona comentário à tag sendo criada
