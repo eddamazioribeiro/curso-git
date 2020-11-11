@@ -68,3 +68,7 @@ git tag: lista as tags criadas durante o processo de desenvolvimento
     -m "[mensagem-descritiva]": adiciona comentário à tag sendo criada
     -d [nome-da-tag]: remove localmente a tag indicada
     --delete origin [nome-da-tag]: remove a tag do repositório remoto (origin)
+
+git stash: salva temporariamente as alterações feitas no repositório local
+    -list: lista as alteações salvas até o momento
+    save "[mensagem-descritiva]: adiciona comentário ao registro salvo, de forma semelhante à opção -m do comando commit
