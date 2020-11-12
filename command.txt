@@ -49,6 +49,9 @@ git clone: clona um repositório (local ou remoto)
     remote add origin [uri-do-projeto-no-github]: clona o projeto de origem remota, conforme indicado na URL
 
 git pull: baixa a versão mais atual no servidor remoto
+    * junção dos comandos fetch e merge
+
+git fetch: retorna as informações acerca das últimas alterações feitas no repositório remoto (origin), porém sem aplicá-las ao repositório local
 
 git branch: lista as branches disponíveis, indicando (com '*') a branch atual.
     [nome-da-branch]: cria nova branch com o nome indicado
@@ -57,7 +60,7 @@ git branch: lista as branches disponíveis, indicando (com '*') a branch atual.
     -m [nome-atual] [novo-nome]: renomeia a branch indicada. Obs.: caso não esteja checkado na branch desejada, indicar qual branch será renomeada
 
 git commit: rastrea as alterações adicionadas (git add), deixando-as aptas a serem enviadas ao repositório
-    -m "[mensagem-descritiva]": adiciona mensagem de comentário breve sobre a alteração feita e que está sendo commitada
+    -m "[mensagem-descritiva]": adiciona mensagem de comentário breve sobre a alteração feita e que está sendo commitadaaa
     --amend: adiciona novas alterações a um commit local, antes de enviá-lo ao servidor remoto (push)
 
 git push: envia as alterações (commitadas) para o repositório remoto.
