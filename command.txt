@@ -80,3 +80,6 @@ git stash: salva temporariamente as alterações feitas no repositório local
     apply [id-stash (opcional)]: reverte para a alteração indicada salva no stash. Obs: se não indicada versão do stash, aplica a mais recente disponível
     pop [id-stash (opcional)]: idem ao anterior, porém já exclui o stash aplicado
     clear: remove todos os stashes salvos
+
+git rebase: "alinha" o histórico de commits entre duas branches, ("merge"), eliminando ramificações no histórico de alterações
+    git rebase [branch-de-origem]: alinha o histórico de commits da branch de destino indicada com a branch atual
