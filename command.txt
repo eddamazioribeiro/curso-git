@@ -60,8 +60,9 @@ git branch: lista as branches disponíveis, indicando (com '*') a branch atual.
     -m [nome-atual] [novo-nome]: renomeia a branch indicada. Obs.: caso não esteja checkado na branch desejada, indicar qual branch será renomeada
 
 git commit: rastrea as alterações adicionadas (git add), deixando-as aptas a serem enviadas ao repositório
-    -m "[mensagem-descritiva]": adiciona mensagem de comentário breve sobre a alteração feita e que está sendo commitadaaa
+    -m "[mensagem-descritiva]": adiciona mensagem de comentário breve sobre a alteração feita e que está sendo commitada
     --amend: adiciona novas alterações a um commit local, antes de enviá-lo ao servidor remoto (push)
+        --no-edit: não altera a mensagem de commit atual, adicionando apenas as novas alterações
 
 git push: envia as alterações (commitadas) para o repositório remoto.
     --set-upstream origin [nome-da-branch-remota]: cria nova branch no servidor remoto, com o nome indicado, com base na nova brach criada localmente, "sincronizando" as duas
